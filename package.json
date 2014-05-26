@@ -1,0 +1,41 @@
+{
+  "name": "testata",
+  "version": "0.2.2",
+  "description": "Test ta ta ta",
+  "author": "Meto",
+  "license": "",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "tap test/*.test.js",
+    "lint": "jshint app/*"
+  },
+  "dependencies": {
+    "mysql": "~2.0.0-alpha9",
+    "restify": "~2.6.1",
+    "streamsql": "~0.6.0",
+    "validator": "~2.0.0",
+    "xtend": "~2.1.1",
+    "bluebird": "~1.0.8",
+    "bunyan": "~0.22.1",
+    "jws": "~0.2.5",
+    "request": "~2.33.0",
+    "underscore": "~1.6.0",
+    "newrelic": "~1.4.0",
+    "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.4.1",
+    "form-data": "~0.1.2",
+    "jshint": "~2.3.0",
+    "tap": "~0.4.6"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  }
+}
